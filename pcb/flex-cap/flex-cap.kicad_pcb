@@ -148,7 +148,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -1.524 0 360)
+			(at -1.524 0 0)
 			(layer "F.SilkS")
 			(uuid "7356f7c7-ee29-4755-b592-6f0c4d472908")
 			(effects
@@ -159,7 +159,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "021a98fe-c73c-46bf-9071-fb1b3decbd26")
 			(effects
@@ -327,7 +327,7 @@
 			(uuid "0d2fd8f7-d64e-49a1-a27f-189b2049c6e2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6550b0ba-73bb-4ecf-8a49-a66f96229066")
 			(effects
@@ -370,12 +370,12 @@
 	(footprint "User_Footprints:FPC_6P_P0.5mm"
 		(layer "F.Cu")
 		(uuid "2884e6c8-698b-4d44-9e80-6a5a797259f0")
-		(at 190.827 102.89)
+		(at 190.746 102.89)
 		(property "Reference" "J1"
-			(at 0 -1.31 0)
+			(at -5.453 1.25 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "99084309-554e-4b49-92d0-77baf18faf37")
+			(uuid "0f37d65c-8095-434d-86c5-7a5fbc1dd032")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -387,7 +387,7 @@
 			(at 0 -3.968 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "63c7ce8a-fca7-4ee4-b339-1ec6b7fd0f88")
+			(uuid "10827058-2fbe-41b4-8edb-2762d9c36fda")
 			(effects
 				(font
 					(size 1 1)
@@ -400,7 +400,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fef414d0-297f-4523-a3fb-5b30f8daa2df")
+			(uuid "320c394b-4932-4f75-ae8a-67646debb6c2")
 			(effects
 				(font
 					(size 1 1)
@@ -413,7 +413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8f851984-3afe-47e8-8199-7d7f23bdb51d")
+			(uuid "fc8e842b-5387-4128-a016-3a4ba3ad7632")
 			(effects
 				(font
 					(size 1 1)
@@ -426,7 +426,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2182ec54-8c78-444e-99df-a0fecc6f7a87")
+			(uuid "282f97d0-c931-4aa8-8dab-a1e8046ccf42")
 			(effects
 				(font
 					(size 1 1)
@@ -439,34 +439,34 @@
 		(sheetname "Root")
 		(sheetfile "flex-cap.kicad_sch")
 		(fp_line
-			(start -1.5 -0.5)
-			(end -1.5 3)
+			(start -4.9 -0.5)
+			(end -4.9 3)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "User.1")
-			(uuid "1ff6ee43-e77f-47ed-817a-047ea1e83552")
+			(uuid "b3358de8-4b1a-42f6-957e-ad76333b3c60")
 		)
 		(fp_line
-			(start -1.5 -0.5)
+			(start -4.9 -0.5)
 			(end 1.1 -0.5)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "User.1")
-			(uuid "760caa8f-dce0-4f67-8c66-270de595c6c7")
+			(uuid "a72fb643-65e6-4e5d-a010-f815f04951f8")
 		)
 		(fp_line
-			(start -1.5 3)
+			(start -4.9 3)
 			(end 1.1 3)
 			(stroke
 				(width 0.1)
 				(type default)
 			)
 			(layer "User.1")
-			(uuid "2eabcdb9-767f-4b2a-995f-cc2b6de5c86d")
+			(uuid "dc2dcc08-d512-4cc9-a73b-7a2fc8091edd")
 		)
 		(fp_line
 			(start 1.1 -0.5)
@@ -476,13 +476,13 @@
 				(type default)
 			)
 			(layer "User.1")
-			(uuid "4c957f1c-c58a-4f85-a27b-8543aa1ee39b")
+			(uuid "14d77366-7d56-41fc-99a2-29b1eeecab79")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.468001 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "22c5b61e-7528-4333-9e6a-3cfcdee2d994")
+			(uuid "e89d8008-036d-4fdb-8acd-43d38540f866")
 			(effects
 				(font
 					(size 1 1)
@@ -490,11 +490,11 @@
 				)
 			)
 		)
-		(fp_text user "Stiffener: Polymide"
-			(at 1.124 1.024 0)
+		(fp_text user "Thickness: 0.2mm"
+			(at 1.278 2.647 0)
 			(unlocked yes)
 			(layer "User.1")
-			(uuid "220ae61d-9597-4cde-ac3b-5e5616cb456c")
+			(uuid "52c38f43-8845-4b5b-a05e-ec833438410c")
 			(effects
 				(font
 					(size 1 1)
@@ -503,11 +503,11 @@
 				(justify left bottom)
 			)
 		)
-		(fp_text user "Thickness: 0.2mm"
-			(at 1.524 2.524 0)
+		(fp_text user "Stiffener: Polymide"
+			(at 1.124 1.024 0)
 			(unlocked yes)
 			(layer "User.1")
-			(uuid "a52e3d5b-882c-42bb-b570-4bb93eef2749")
+			(uuid "54e4c509-1858-4baa-b5af-f7b86fde5478")
 			(effects
 				(font
 					(size 1 1)
@@ -517,64 +517,64 @@
 			)
 		)
 		(pad "1" connect roundrect
-			(at 0 0)
-			(size 2 0.3)
+			(at -0.5 0)
+			(size 3.2 0.3)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(uuid "fb0363e6-836f-4e06-9157-f52afc6ef889")
+			(uuid "2303377b-ff6a-41d7-8bfa-52b9ecc0862e")
 		)
 		(pad "2" connect roundrect
-			(at 0 0.499999)
-			(size 2 0.3)
+			(at -0.5 0.5)
+			(size 3.2 0.3)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 6 "/INT")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(uuid "eb84488d-82ee-4fdb-8099-3bc7899e86cf")
+			(uuid "59afc8ee-5b04-43a3-af16-78a23a17413f")
 		)
 		(pad "3" connect roundrect
-			(at 0 1)
-			(size 2 0.3)
+			(at -0.5 1)
+			(size 3.2 0.3)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 4 "/SCL")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(uuid "1f5005ca-9435-44a1-8001-cb692ebe6fe1")
+			(uuid "05a66c20-8c65-4e2c-8f4e-f9d61a41be14")
 		)
 		(pad "4" connect roundrect
-			(at 0 1.5)
-			(size 2 0.3)
+			(at -0.5 1.5)
+			(size 3.2 0.3)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 5 "/SDA")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(uuid "d2abf93b-fadd-4441-9519-5e8900880908")
+			(uuid "d09846a2-a82f-42d3-a339-992d91cff6c5")
 		)
 		(pad "5" connect roundrect
-			(at 0 2.000001)
-			(size 2 0.3)
+			(at -0.5 2)
+			(size 3.2 0.3)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 2 "+3V3")
 			(pinfunction "Pin_5")
 			(pintype "passive")
-			(uuid "bc03e88c-2566-4b8b-a313-5541f425436d")
+			(uuid "b60f65c3-034f-4dd1-9752-aa4c0b92dc7f")
 		)
 		(pad "6" connect roundrect
-			(at 0 2.5)
-			(size 2 0.3)
+			(at -0.5 2.5)
+			(size 3.2 0.3)
 			(layers "B.Cu" "B.Mask")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "Pin_6")
 			(pintype "passive")
-			(uuid "1cc352d7-bab8-459b-a5a7-a19706e2414a")
+			(uuid "5da11266-57df-44eb-a750-ee4ed8f7bf6f")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
@@ -1036,7 +1036,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at -1.524 0 360)
+			(at -1.524 0 0)
 			(layer "F.SilkS")
 			(uuid "6eee0cfc-7584-4fb0-affd-82fdeeaef504")
 			(effects
@@ -1047,7 +1047,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "c030a5e9-68ac-48c9-8722-13e329034d84")
 			(effects
@@ -1215,7 +1215,7 @@
 			(uuid "94ec830f-f6f2-4ba7-ab4f-1236bf05e6a0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "db2498a6-084e-4c4b-b169-1423bf1205f9")
 			(effects
@@ -1714,7 +1714,7 @@
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at -1.524 0 360)
+			(at -1.524 0 0)
 			(layer "F.SilkS")
 			(uuid "7d5f1957-f2ab-4ccb-bb00-1a08067b0127")
 			(effects
@@ -1725,7 +1725,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 0 1.17 360)
+			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "67bf2c87-d998-47ee-8ab8-583cf47f4d6c")
 			(effects
@@ -1893,7 +1893,7 @@
 			(uuid "fbf968ae-a83e-486c-93e0-ee54ea5c50b8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a67a90c1-41d9-412c-83a1-9a4b9fada861")
 			(effects
@@ -1996,6 +1996,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C207411"
+			(at 0 0 45)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9a9145b-4ccc-4b94-9e70-cddc4a59b144")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
