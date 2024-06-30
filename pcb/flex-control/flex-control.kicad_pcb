@@ -1908,7 +1908,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15525"
+		(property "LCSC" "C19702"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6095,7 +6095,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15525"
+		(property "LCSC" "C19702"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6943,9 +6943,9 @@
 		(uuid "0d1372fc-1197-4f1d-804d-ee55e1869392")
 	)
 	(gr_arc
-		(start 83.82 98.552)
-		(mid 84.191974 97.653974)
-		(end 85.09 97.282)
+		(start 83.439 98.552)
+		(mid 83.810974 97.653974)
+		(end 84.709 97.282)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -6974,7 +6974,7 @@
 		(uuid "29aa034d-0f54-4e11-b031-8ecac6cffdc6")
 	)
 	(gr_line
-		(start 85.09 97.282)
+		(start 84.709 97.282)
 		(end 86.868 97.282)
 		(stroke
 			(width 0.05)
@@ -7006,8 +7006,8 @@
 		(uuid "3ba77a0d-c564-409e-9a83-27600dc78923")
 	)
 	(gr_line
-		(start 83.82 98.552)
-		(end 83.82 104.648)
+		(start 83.439 98.552)
+		(end 83.439 104.648)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -7049,7 +7049,7 @@
 		(uuid "7acb0032-2589-44e4-9f70-223647f11bdc")
 	)
 	(gr_line
-		(start 85.09 105.918)
+		(start 84.709 105.918)
 		(end 86.868 105.918)
 		(stroke
 			(width 0.05)
@@ -7112,9 +7112,9 @@
 		(uuid "bf44723f-7f77-4fbe-83c9-e9970531b146")
 	)
 	(gr_arc
-		(start 85.09 105.918)
-		(mid 84.191974 105.546026)
-		(end 83.82 104.648)
+		(start 84.709 105.918)
+		(mid 83.810974 105.546026)
+		(end 83.439 104.648)
 		(stroke
 			(width 0.05)
 			(type default)
