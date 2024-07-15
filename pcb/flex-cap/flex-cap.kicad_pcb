@@ -81,6 +81,8 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(aux_axis_origin 119.38 104.14)
+		(grid_origin 119.38 104.14)
 		(pcbplotparams
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
@@ -438,6 +440,7 @@
 		(path "/4a4b92f7-2e80-4ccc-8079-ffd4491bc4f0")
 		(sheetname "Root")
 		(sheetfile "flex-cap.kicad_sch")
+		(attr exclude_from_bom)
 		(fp_line
 			(start -4.9 -0.5)
 			(end -4.9 3)
